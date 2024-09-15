@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<htm lang="en"> 
+    <head>
+        <title> CatPhotos</title>
+    </head>
+    <body>
+        <h2> CatPhotosApp</h2>
+        <main> 
+            <!-- TO DO: add link to create cat photos -->
+            <p> Click here dear to view more <a href="#" target="_blank"> cat photo </a></p>
+            <a href="https:catphotos.com" target="_balnk"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/800px-Cat03.jpg" alt="A cute cat"></a>
+            <h3> Cat Lists</h3>
+
+            <!-- <div>: This is a container element used to group together other HTML elements. It doesn’t add any styling by itself but is commonly used for layout purposes or to apply styles to a section of a page.
+class: The class attribute is used to assign a name to an HTML element. This name can then be referenced in CSS to apply specific styles or in JavaScript to manipulate the element. Multiple elements can share the same class.
+-->
+            <div class="Lists"> 
+                <p> Things cats <em> love</em></p>
+                <ul>
+                    <li> Cat pin</li>
+                    <li> Laser pointers </li>
+                    <li> Lasanya</li>
+                    <img src="https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe-f.jpg" alt="lasanga">
+                </ul>
+                <p> Things cats <strong> hate</strong></p>
+                <ol>
+                    <li> Flea treatments</li>
+                    <li> Thunders</li>
+                    <li> Other cats</li>
+                </ol>
+            </div>
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdDFnJeqn-LSTxup6HUitBLzjk-hmTxPpPiA&s" alt="group of cats">
+            
+            <!-- When the user clicks the "Submit" button, the form data (in this case, the text entered in the input field) will be 
+             sent to the submit-cat-photo URL -->
+            <form action="submit-cat-photo"> 
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor">Indoor </label><br>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor">Outdoor </label><br>
+                
+                <label for="loving"> <input id="loving" type="checkbox" name="personality"> Loving</label><br>
+                <label for="lazy"> <input id="lazy" type="checkbox" name="personality"> Lazy </label><br>
+                <label for="energatic"> <input id="energatic" type="checkbox" name="personality"> Energatic</label><br>
+                
+                <input type="text" placeholder="sumbit cat URL" required>
+                <button type="submit"> Submit</button>
+            </form>
+        </main>
+
+        <footer>
+            <p> <small> No copytights - <a href="https://freecode.org" target="_blank">freecode</a></small></p>
+        </footer>
+    </body>
+</html>
